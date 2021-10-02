@@ -33,7 +33,7 @@ print(' [*] Waiting for logs. To exit press CTRL+C')
 
 def callback(ch, method, properties, body):
     """
-    Each time we receive a message, this callback function will be call by pika library.    
+    Each time we receive a message, this callback function will be call by pika library.
     In this case, callback function prints message body
     """
     print(" [x] {}".format(body))
