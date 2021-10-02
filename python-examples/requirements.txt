@@ -1,0 +1,17 @@
+autopep8==1.5.7
+configparser==4.0.2
+contextlib2==0.6.0.post1
+enum34==1.1.10
+flake8==3.9.2
+functools32==3.2.3.post2
+importlib-metadata==2.1.1
+mccabe==0.6.1
+pathlib2==2.3.6
+pika==1.2.0
+pycodestyle==2.7.0
+pyflakes==2.3.1
+scandir==1.10.0
+six==1.16.0
+toml==0.10.2
+typing==3.10.0.0
+zipp==1.2.0

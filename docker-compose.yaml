@@ -13,8 +13,8 @@ services:
     volumes:
       - ./data:/var/lib/rabbitmq/mnesia
     environment:
-      RABBITMQ_DEFAULT_USER: pqzada
-      RABBITMQ_DEFAULT_PASS: 123qwe
+      RABBITMQ_DEFAULT_USER: username
+      RABBITMQ_DEFAULT_PASS: password
       RABBITMQ_MEMORY_HIGH_WATERMARK: 0.5
     networks:
       rabbitmq_net:
